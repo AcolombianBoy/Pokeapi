@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pronto pokeapi</h1>
+    <main id="app">
+        <!--Contenido dinamico-->
+    </main>
+    <aside class="c-nav"></aside>
+    <button class="c-nav-item" onclick="mostrarLista()">lista</button>
+    <button class="c-nav-item" onclick="mostrarCapturados()">capturados</button>
+    <button class="c-nav-item" onclick="mostrarAleatorios()">aleatorios</button>
+    <button class="c-nav-item" onclick="mostrarUsuarios()">usuarios</button>
+    <button class="c-nav-item" onclick="mostrarFavoritos()">favoritos</button>
+
+    <script src="./js/api.js"></script>
+    <script src="./js/lista.js"></script>
+    <script src="./js/usuario.js"></script>
+    <script src="./js/aleatorio.js"></script>
+    <script src="./js/favorito.js"></script>
+    <script src="./js/capturados.js"></script>
+    <script src="./js/detalle.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", General)
+    </script>
+</body>
+</html>
